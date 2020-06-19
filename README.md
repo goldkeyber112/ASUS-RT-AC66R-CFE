@@ -2,7 +2,7 @@
 
 # Usage
 
-mtd-write -i new_cfe.bin -d pmon
-strings /dev/mtd0ro | grep bl_ver
-mtd-erase -d nvram
-reboot
+mtd-write -i new_cfe.bin -d pmon  
+strings /dev/mtd0ro | grep bl_ver  
+mtd-erase -d nvram  
+reboot  
