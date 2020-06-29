@@ -1,6 +1,6 @@
-# the AC66R original CFE backup
+## The AC66R original CFE backup
 
-# Usage
+## Usage
 
 chmod 755 mtd-write  
 mtd-write -i new_cfe.bin -d pmon  
